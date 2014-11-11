@@ -12,4 +12,4 @@ Example HTML code:
 ```
 
 Example jQuery code:
-`$('button[data-stage]').centerStage();`
+```$('button[data-stage]').centerStage();```
