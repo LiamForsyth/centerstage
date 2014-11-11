@@ -1,0 +1,39 @@
+#backstage {
+    /* Required */
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    /* Styling */
+    background:rgba(0, 0, 0, 0.5);
+    opacity:0;
+    /* Animation */
+    transition: all 500ms ease;
+}
+.stage {
+    /* Required */
+    display: none;
+    position:fixed;
+    max-height:100%;
+    overflow:scroll;
+    /* Styling */
+    top:50%;
+    transform: translateY(-50%);
+    left:0;
+    right:0;
+    margin:0 auto;
+    max-width:800px;
+    opacity:0;
+    padding:40px;
+    background:#fff;
+    /* Animation */
+    transition: all 500ms ease;
+}
+#backstage.centerstage {
+    opacity:1;
+}
+.stage.centerstage {
+    opacity:1;
+}
